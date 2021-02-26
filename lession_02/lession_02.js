@@ -37,7 +37,6 @@ x = 5
 /*function getNumberResult(a, b) {
     if (a >= 0 && b >= 0) return a - b ;
     else if (a < 0 && b < 0) return a * b;
-    else if (isNaN(a || b)) return "Введите второе число";
     return a + b;
 }
 var resultOne = getNumberResult(0,10);
@@ -54,16 +53,41 @@ console.log(resultThree)*/
 */
 
 /*function sayNumber(number) {
-    switch(number<=15) {
-        case true:
-            return ("Вывод чисел от " + number + " до 15");
-            break;
-        default:
-            return ("Число не попадает в диапазон от 0 до 15");
+    switch (number) {
+        case 1:
+            console.log(number++);
+        case 2:
+            console.log(number++);
+        case 3:
+            console.log(number++);
+        case 4:
+            console.log(number++);
+        case 5:
+            console.log(number++);
+        case 6:
+            console.log(number++);
+        case 7:
+            console.log(number++);
+        case 8:
+            console.log(number++);
+        case 9:
+            console.log(number++);
+        case 10:
+            console.log(number++);
+        case 11:
+            console.log(number++);
+        case 12:
+            console.log(number++);
+        case 13:
+            console.log(number++);
+        case 14:
+            console.log(number++);
+        case 15:
+            console.log(number++);
     }
 }
-let a = Math.floor(Math.random() * 16)
-console.log(sayNumber(a))*/
+let a = Math.floor(Math.random() * 15)
+sayNumber(a)*/
 
 
 /*
@@ -107,19 +131,15 @@ function div(x,y) {
     switch (operation.toLowerCase()){
         case 'сложить':
             return sum(arg1,arg2)
-            break;
 
         case 'вычесть':
             return minus(arg1,arg2)
-            break;
 
         case 'умножить':
             return multi(arg1,arg2)
-            break;
 
         case 'разделить':
             return div(arg1,arg2)
-            break;
     }
 }
 console.log(mathOperation(2,4,'сложить'))*/
