@@ -48,8 +48,7 @@ console.log("Сумма товаров в корзине "+ countBasketPrice(car
 //     for(…){// здесь пусто}
 
 /*
-for (let i=0;i<=9;)
-    console.log(i++);
+for (i=0;i<10; console.log(i++)){/!*здесь пусто*!/}
 */
 
 
