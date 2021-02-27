@@ -1,23 +1,19 @@
 "use strict";
 // 1. С помощью цикла while вывести все простые числа в промежутке от 0 до 100.
 /*
-var count = 100;
-var startNumber = 2;
-
-function naturalNumber(number) {
-    for (var i = 2; i <= number/2; i++) {
-        if (number % i === 0) {
-            return false;
+let i=1;
+let numbers = 100;
+simpleNumbers:
+while (i < numbers){
+    i++
+    let j = 2;
+    while (j < i){
+        if (i % j === 0){
+            continue simpleNumbers;
         }
+        j++;
     }
-    return true;
-}
-
-while(startNumber <= count) {
-    if(naturalNumber(startNumber)) {
-        console.log(startNumber);
-    }
-    startNumber++;
+    console.log(i)
 }
 */
 
