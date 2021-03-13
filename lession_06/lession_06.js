@@ -145,6 +145,7 @@ const catalog = {
 
 };
 
+
 catalog.init();
 cart.init();
 
